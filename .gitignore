@@ -1,0 +1,33 @@
+# Node.js関連
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ビルド出力
+dist/
+build/
+
+# 環境設定ファイル
+.env
+.env.local
+.env.*.local
+
+# エディタ/IDE関連
+.idea/
+*.swp
+*.swo
+
+# OS関連
+.DS_Store
+Thumbs.db
+
+# ログファイル
+*.log
+
+# テスト関連
+coverage/
+
+# その他
+*.tmp
+*.bak
+*.cache
