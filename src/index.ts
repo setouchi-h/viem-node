@@ -21,21 +21,6 @@ async function main() {
         firstTransactionReceived = true;
       }
       console.log(transactions);
-      //   transactions.forEach((transaction) => {
-      //     console.log("New pending transaction:");
-      //     console.log("- Hash:", transaction.hash);
-      //     console.log("- From:", transaction.from);
-      //     console.log("- To:", transaction.to);
-      //     console.log(
-      //       "- Value:",
-      //       transaction.value ? parseEther(transaction.value.toString()) : "N/A"
-      //     );
-      //     console.log(
-      //       "- Gas Price:",
-      //       transaction.gasPrice ? transaction.gasPrice.toString() : "N/A"
-      //     );
-      //     console.log("---");
-      //   });
     },
     batch: true,
     pollingInterval: 1000, // Poll every 1 second
